@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D12C8FA1C23380700A89495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D12C8F91C23380700A89495 /* AppDelegate.swift */; };
+		8D12C8FC1C23380700A89495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D12C8FB1C23380700A89495 /* ViewController.swift */; };
+		8D12C8FF1C23380700A89495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D12C8FD1C23380700A89495 /* Main.storyboard */; };
+		8D12C9021C23380700A89495 /* Pretty_Apple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D12C9001C23380700A89495 /* Pretty_Apple.xcdatamodeld */; };
+		8D12C9041C23380700A89495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D12C9031C23380700A89495 /* Assets.xcassets */; };
+		8D12C9071C23380700A89495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D12C9051C23380700A89495 /* LaunchScreen.storyboard */; };
+		8D12C9121C23380700A89495 /* Pretty_AppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D12C9111C23380700A89495 /* Pretty_AppleTests.swift */; };
+		8D12C91D1C23380700A89495 /* Pretty_AppleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D12C91C1C23380700A89495 /* Pretty_AppleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D12C90E1C23380700A89495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D12C8EE1C23380700A89495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D12C8F51C23380700A89495;
+			remoteInfo = "Pretty Apple";
+		};
+		8D12C9191C23380700A89495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D12C8EE1C23380700A89495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D12C8F51C23380700A89495;
+			remoteInfo = "Pretty Apple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D12C8F61C23380700A89495 /* Pretty Apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pretty Apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D12C8F91C23380700A89495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D12C8FB1C23380700A89495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D12C8FE1C23380700A89495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D12C9011C23380700A89495 /* Pretty_Apple.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pretty_Apple.xcdatamodel; sourceTree = "<group>"; };
+		8D12C9031C23380700A89495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D12C9061C23380700A89495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D12C9081C23380700A89495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D12C90D1C23380700A89495 /* Pretty AppleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty AppleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D12C9111C23380700A89495 /* Pretty_AppleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_AppleTests.swift; sourceTree = "<group>"; };
+		8D12C9131C23380700A89495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D12C9181C23380700A89495 /* Pretty AppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty AppleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D12C91C1C23380700A89495 /* Pretty_AppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_AppleUITests.swift; sourceTree = "<group>"; };
+		8D12C91E1C23380700A89495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D12C8F31C23380700A89495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D12C90A1C23380700A89495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D12C9151C23380700A89495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D12C8ED1C23380700A89495 = {
+			isa = PBXGroup;
+			children = (
+				8D12C8F81C23380700A89495 /* Pretty Apple */,
+				8D12C9101C23380700A89495 /* Pretty AppleTests */,
+				8D12C91B1C23380700A89495 /* Pretty AppleUITests */,
+				8D12C8F71C23380700A89495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D12C8F71C23380700A89495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D12C8F61C23380700A89495 /* Pretty Apple.app */,
+				8D12C90D1C23380700A89495 /* Pretty AppleTests.xctest */,
+				8D12C9181C23380700A89495 /* Pretty AppleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D12C8F81C23380700A89495 /* Pretty Apple */ = {
+			isa = PBXGroup;
+			children = (
+				8D12C8F91C23380700A89495 /* AppDelegate.swift */,
+				8D12C8FB1C23380700A89495 /* ViewController.swift */,
+				8D12C8FD1C23380700A89495 /* Main.storyboard */,
+				8D12C9031C23380700A89495 /* Assets.xcassets */,
+				8D12C9051C23380700A89495 /* LaunchScreen.storyboard */,
+				8D12C9081C23380700A89495 /* Info.plist */,
+				8D12C9001C23380700A89495 /* Pretty_Apple.xcdatamodeld */,
+			);
+			path = "Pretty Apple";
+			sourceTree = "<group>";
+		};
+		8D12C9101C23380700A89495 /* Pretty AppleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D12C9111C23380700A89495 /* Pretty_AppleTests.swift */,
+				8D12C9131C23380700A89495 /* Info.plist */,
+			);
+			path = "Pretty AppleTests";
+			sourceTree = "<group>";
+		};
+		8D12C91B1C23380700A89495 /* Pretty AppleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D12C91C1C23380700A89495 /* Pretty_AppleUITests.swift */,
+				8D12C91E1C23380700A89495 /* Info.plist */,
+			);
+			path = "Pretty AppleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D12C8F51C23380700A89495 /* Pretty Apple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D12C9211C23380700A89495 /* Build configuration list for PBXNativeTarget "Pretty Apple" */;
+			buildPhases = (
+				8D12C8F21C23380700A89495 /* Sources */,
+				8D12C8F31C23380700A89495 /* Frameworks */,
+				8D12C8F41C23380700A89495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pretty Apple";
+			productName = "Pretty Apple";
+			productReference = 8D12C8F61C23380700A89495 /* Pretty Apple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D12C90C1C23380700A89495 /* Pretty AppleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D12C9241C23380700A89495 /* Build configuration list for PBXNativeTarget "Pretty AppleTests" */;
+			buildPhases = (
+				8D12C9091C23380700A89495 /* Sources */,
+				8D12C90A1C23380700A89495 /* Frameworks */,
+				8D12C90B1C23380700A89495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D12C90F1C23380700A89495 /* PBXTargetDependency */,
+			);
+			name = "Pretty AppleTests";
+			productName = "Pretty AppleTests";
+			productReference = 8D12C90D1C23380700A89495 /* Pretty AppleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D12C9171C23380700A89495 /* Pretty AppleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D12C9271C23380700A89495 /* Build configuration list for PBXNativeTarget "Pretty AppleUITests" */;
+			buildPhases = (
+				8D12C9141C23380700A89495 /* Sources */,
+				8D12C9151C23380700A89495 /* Frameworks */,
+				8D12C9161C23380700A89495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D12C91A1C23380700A89495 /* PBXTargetDependency */,
+			);
+			name = "Pretty AppleUITests";
+			productName = "Pretty AppleUITests";
+			productReference = 8D12C9181C23380700A89495 /* Pretty AppleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D12C8EE1C23380700A89495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Marcos Santos";
+				TargetAttributes = {
+					8D12C8F51C23380700A89495 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MA8ML9RS2E;
+					};
+					8D12C90C1C23380700A89495 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MA8ML9RS2E;
+						TestTargetID = 8D12C8F51C23380700A89495;
+					};
+					8D12C9171C23380700A89495 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MA8ML9RS2E;
+						TestTargetID = 8D12C8F51C23380700A89495;
+					};
+				};
+			};
+			buildConfigurationList = 8D12C8F11C23380700A89495 /* Build configuration list for PBXProject "Pretty Apple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D12C8ED1C23380700A89495;
+			productRefGroup = 8D12C8F71C23380700A89495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D12C8F51C23380700A89495 /* Pretty Apple */,
+				8D12C90C1C23380700A89495 /* Pretty AppleTests */,
+				8D12C9171C23380700A89495 /* Pretty AppleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D12C8F41C23380700A89495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D12C9071C23380700A89495 /* LaunchScreen.storyboard in Resources */,
+				8D12C9041C23380700A89495 /* Assets.xcassets in Resources */,
+				8D12C8FF1C23380700A89495 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D12C90B1C23380700A89495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D12C9161C23380700A89495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D12C8F21C23380700A89495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D12C9021C23380700A89495 /* Pretty_Apple.xcdatamodeld in Sources */,
+				8D12C8FC1C23380700A89495 /* ViewController.swift in Sources */,
+				8D12C8FA1C23380700A89495 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D12C9091C23380700A89495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D12C9121C23380700A89495 /* Pretty_AppleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D12C9141C23380700A89495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D12C91D1C23380700A89495 /* Pretty_AppleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D12C90F1C23380700A89495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D12C8F51C23380700A89495 /* Pretty Apple */;
+			targetProxy = 8D12C90E1C23380700A89495 /* PBXContainerItemProxy */;
+		};
+		8D12C91A1C23380700A89495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D12C8F51C23380700A89495 /* Pretty Apple */;
+			targetProxy = 8D12C9191C23380700A89495 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D12C8FD1C23380700A89495 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D12C8FE1C23380700A89495 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D12C9051C23380700A89495 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D12C9061C23380700A89495 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D12C91F1C23380700A89495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D12C9201C23380700A89495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D12C9221C23380700A89495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pretty Apple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Pretty-Apple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D12C9231C23380700A89495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pretty Apple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Pretty-Apple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D12C9251C23380700A89495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pretty AppleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Pretty-AppleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Apple.app/Pretty Apple";
+			};
+			name = Debug;
+		};
+		8D12C9261C23380700A89495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pretty AppleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Pretty-AppleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Apple.app/Pretty Apple";
+			};
+			name = Release;
+		};
+		8D12C9281C23380700A89495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pretty AppleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Pretty-AppleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pretty Apple";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8D12C9291C23380700A89495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pretty AppleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.Pretty-AppleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pretty Apple";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D12C8F11C23380700A89495 /* Build configuration list for PBXProject "Pretty Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D12C91F1C23380700A89495 /* Debug */,
+				8D12C9201C23380700A89495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D12C9211C23380700A89495 /* Build configuration list for PBXNativeTarget "Pretty Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D12C9221C23380700A89495 /* Debug */,
+				8D12C9231C23380700A89495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D12C9241C23380700A89495 /* Build configuration list for PBXNativeTarget "Pretty AppleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D12C9251C23380700A89495 /* Debug */,
+				8D12C9261C23380700A89495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D12C9271C23380700A89495 /* Build configuration list for PBXNativeTarget "Pretty AppleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D12C9281C23380700A89495 /* Debug */,
+				8D12C9291C23380700A89495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D12C9001C23380700A89495 /* Pretty_Apple.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D12C9011C23380700A89495 /* Pretty_Apple.xcdatamodel */,
+			);
+			currentVersion = 8D12C9011C23380700A89495 /* Pretty_Apple.xcdatamodel */;
+			path = Pretty_Apple.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D12C8EE1C23380700A89495 /* Project object */;
+}
